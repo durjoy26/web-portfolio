@@ -8,23 +8,30 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
+    /* max-width: 1140px; */
+    /* width: 100%; */
+    margin: 0 100px;
+}
+#bannar{
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: inherit;
 }
 .aboutMe{
     width: 50%;
 }
 .aboutMe h1{
     font-size: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    line-height: 98px;
 }
 .aboutMe h1 span{
     color: #ffa500;
 }
 .aboutMe h4{
     font-size: 19px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 .aboutMe p{
     color: #696969;
@@ -43,6 +50,7 @@ body{
 }
 .myPic{
     width: 50%;
+    padding-top: 20px;
 }
 .bg{
     background-image: url(../Backgorund/image\ 12.png);
@@ -53,12 +61,69 @@ body{
 }
 .bg img {
     object-fit: contain;
-    height: 300px;
+    width: 73%;
     border-radius: 100%;
     border-radius: 46%;
-    margin: 0 0 0 75px;
+    margin: 0 0 0 103px;
 }
 .heroArea{
+    height: 100vh;
     display: flex;
     justify-content: space-between;
+}
+.pd-R{
+    padding-right: 60px;
+}
+.bg2{
+    background-image: url(../Backgorund/image\ 9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+#About{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#experiences h1{
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+.leftArea{
+    height: 400px;
+    float: left;
+    width: 46%;
+    padding-left: 2%;
+    border-left: 4px solid tomato;
+    box-shadow: 2px 4px #696969;
+}
+.leftArea h1{
+    padding-bottom: 20px;
+    font-size: 39px !important;
+}
+.leftArea h4{
+    color: #ffa500;
+}
+.leftArea p{
+    color: #696966;
+}
+.rightArea{
+    height: 400px;
+    float: right;
+    width: 46%;
+    padding-left: 2%;
+    border-left: 4px solid tomato;
+}
+.rightArea h1{
+    padding-bottom: 20px;
+    font-size: 39px !important;
+}
+.rightArea h4{
+    color: #ffa500;
+}
+.rightArea p{
+    color: #696966;
 }
