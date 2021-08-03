@@ -12,10 +12,78 @@ body{
     /* width: 100%; */
     margin: 0 100px;
 }
+html {
+    scroll-behavior: smooth;
+  }
+
+/* ==========================================
+Header CSS
+============================================= */
+header{
+    background-color: #fb6c59;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul:nth-child(2) li a{
+    padding: 5px 10px;
+    display: inline-block;
+    font-weight: 500;
+    color: #fff;
+}
+nav ul:nth-child(2) li:nth-child(4) a{
+    background-color: rgb(107 73 218);
+    border-radius: 10px;
+    color: #fff;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul:nth-child(1) li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0px;
+    padding-left: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* =======================================
+aside CSS
+========================================== */
+aside{
+    position: fixed;
+    top: 45%;
+    left: 0;
+}
+aside img{
+    display: flex;
+    flex-direction: column;
+    /* object-fit: contain; */
+    width: 37px;
+    padding-left: 2px;
+}
+aside img:nth-child(1) {
+    width: 30px;
+    padding: 5px 0px 2px 5px;
+}
 #bannar{
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
     background-size: inherit;
+    margin-top: 53.33px;
 }
 .aboutMe{
     width: 50%;
@@ -86,10 +154,12 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
-
 #experiences{
     margin-bottom: 40px;
     height: 400px;
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 #experiences h1{
     font-size: 36px;
@@ -134,4 +204,7 @@ body{
 }
 .rightArea p{
     color: #696966;
+}
+.expere{
+    margin-left: 81px;
 }
