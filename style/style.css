@@ -43,7 +43,7 @@ nav ul:nth-child(2) li a{
     font-weight: 500;
     color: #fff;
 }
-nav ul:nth-child(2) li:nth-child(4) a{
+nav ul:nth-child(2) li:nth-child(5) a{
     background-color: rgb(107 73 218);
     border-radius: 10px;
     color: #fff;
@@ -207,4 +207,39 @@ aside img:nth-child(1) {
 }
 .expere{
     margin-left: 81px;
+}
+/* ============================================
+Media CSS
+=============================================== */
+#media{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+.mediaArea{
+    height: 310px;
+    display: flex;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+    display: inline-block;
+}
+.half-width:nth-child(1){
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.half-width img {
+    width: 487px;
+}
+audio{
+    width: 90%;
+}
+video{
+    width: 100%;
+    border-radius: 5px;
 }
