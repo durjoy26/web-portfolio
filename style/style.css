@@ -238,8 +238,28 @@ Media CSS
 }
 audio{
     width: 90%;
+    overflow: hidden;
 }
 video{
     width: 100%;
     border-radius: 5px;
+}
+
+/* ==============================================
+Form Css
+================================================= */
+#form{
+    padding: 20px 0;
+}
+form label{
+    display: block;
+    text-align: center;
+    margin: 10px 0px;
+}
+form fieldset legend{
+    text-align: center;
+    margin: 10px 0px;
+}
+form fieldset{
+    margin: 10px 0px;    
 }
