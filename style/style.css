@@ -263,3 +263,36 @@ form fieldset legend{
 form fieldset{
     margin: 10px 0px;    
 }
+
+/* ==============================================
+Calender
+================================================= */
+.grid-calender{
+    padding: 40px 0;
+    background:linear-gradient(60deg,lightblue,rgb(136, 230, 236));
+}
+.grid-calender ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    grid-gap: 10px;
+}
+.grid-calender ul li{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 70px;
+    width: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-calender ul .day{
+    font-size: 15px;
+    font-weight: 700;
+    background-color: lightgreen;
+}
+.grid-calender ul .old-month{
+    background-color: lightsteelblue ;
+}
